@@ -22,7 +22,7 @@ from django.conf import settings
 
 def embeddings():
 
-	import pdb; pdb.set_trace()
+	import pdb;pdb.set_trace()
 	
 	print("loading face detector...")
 	protoPath = os.path.sep.join([settings.BASE_DIR, "face_detection_model\\deploy.prototxt"])
